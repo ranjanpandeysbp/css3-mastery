@@ -1,0 +1,23 @@
+:root{/*declare global variables here*/
+    --item-color: rgb(196, 196, 21);
+    --primary-color: teal;
+    --secondary-color: rgb(240, 33, 26);
+    --max-w: 700px;
+}
+.item{
+    width: 220px;
+    height: 220px;
+    background-color: var(--item-color);
+    border: 2px solid var(--secondary-color);
+    color: white;
+    margin: 20px;
+    box-shadow: 5px 5px var(--secondary-color);
+}
+.container{
+    display: flex;
+    background-color: var(--primary-color);
+    max-width: var(--max-w);
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}

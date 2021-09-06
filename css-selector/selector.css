@@ -1,0 +1,31 @@
+p{/* Element selector - Apply the style to all the p tag in the html */
+    color: orange;
+    background-color: black;
+}
+h2{
+    color: green;
+}
+/*ID slector - Only apply below style to an element which has id = para-two*/
+#para-two{
+    color: blue;
+}
+
+/*Class slector - Only apply below style to one or more elements which has applied below class*/
+.text-purple{
+   color: purple;
+   font-size: large; 
+}
+
+.bg-orange{
+    background-color: goldenrod;
+}
+
+/*CSS Grouping slector - When you have to apply same styling to multiple elements than use this selector*/
+nav, footer{
+    background-color: aqua;
+    color: aliceblue;
+    font-size: larger;
+}
+/* This is a comment in CSS 
+I am comment continued
+*/

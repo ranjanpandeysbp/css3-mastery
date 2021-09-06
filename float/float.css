@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    border: 2px solid red;
+    margin: 40px auto;
+    background: chocolate;
+}
+.item{
+    border: 4px solid green;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    background: rgb(114, 192, 236);
+}
+#fruit{
+    width: 48%;
+    float: left;
+}
+#computer{
+    width: 48%;
+    float: right;
+}
+#stationary{
+    width: 100%;
+    clear: both;
+}
+p, h3{
+    text-align: justify;
+}
+h2{
+    margin: auto; 
+    width:100px;
+}

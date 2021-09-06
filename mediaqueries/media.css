@@ -1,0 +1,35 @@
+.item{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    display: none;
+}
+
+/*0px to 300px width apply below rules*/
+@media only screen and (max-width:300px){
+    #item-1{
+        display: block;
+    }
+}
+/*300px to 500px width apply below rules*/
+@media only screen and (min-width:300px) and (max-width:500px){
+    #item-2{
+        display: block;
+        background-color: rgb(132, 165, 42);
+    }
+}
+/*500px to 800px width apply below rules*/
+@media only screen and (min-width:300px) and (max-width:800px){
+    #item-3{
+        display: block;
+        background-color: rgb(42, 147, 165);
+    }
+}
+/*800px and above width apply below rules*/
+@media only screen and (min-width:800px) {
+    #item-4{
+        display: block;
+        background-color: rgb(75, 42, 165);
+    }
+}

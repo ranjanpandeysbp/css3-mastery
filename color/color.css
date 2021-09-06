@@ -1,0 +1,16 @@
+#productOne{
+    color: blue;
+}
+#productTwo{
+    color: rgb(0,255,255);/*reg green blue each ranges between 0-255*/
+}
+#product3{
+    color: #b6ca18;
+}
+.text-style{
+    font-size: 22px;
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-style: italic;
+    background-color: #669999;
+}

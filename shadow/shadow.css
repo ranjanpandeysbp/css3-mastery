@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 25px 12px;
+    margin: 25px 12px;
+    background-color: seashell;
+}
+.card-bottom{/*offset-y-axis offset-a-axis blurr-radius color*/
+    /*box-shadow: 6px 6px 10px skyblue;shadow on bottom outside*/
+    box-shadow: inset -10px -10px 10px skyblue;/*shadow on bottom inside*/
+}
+.card-top{/*offset-y-axis offset-x-axis blurr-radius spread-radius color*/
+   /* box-shadow: -6px -6px 10px 10px skyblue; */
+   box-shadow: -6px -7px 5px 5px rgba(70, 170, 170, 0.2);/*alpha = how dark the color should be*/
+   box-shadow: 15px 10px blue, 20px 25px red;/*two color shadow*/
+}
+.card h2{
+    text-shadow: 5px 5px 2px rgb(156, 103, 103);/*offset-y-axis offset-x-axis blurr-radius spread-radius color*/
+    text-shadow: -5px -5px 2px rgb(156, 103, 103);
+}

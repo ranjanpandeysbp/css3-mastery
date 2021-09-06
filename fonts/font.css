@@ -1,0 +1,14 @@
+h2{
+    border-bottom: 1px solid red;
+}
+p{
+    font-family: 'Roboto Slab', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 10px;
+    /* 1px = 1/96th of inch */
+}
+span{
+    font-weight: bold;
+    font-style: oblique;
+    color: aquamarine;
+}

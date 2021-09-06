@@ -1,0 +1,57 @@
+.flex-container{
+    width: 100%;
+    height: 520px;
+    border: 3px solid #8282da;
+    /*Initialized a flex box/container*/
+    display: flex;
+    /*Flex properties to be applied on flex box/container*/
+    /*flex-direction: row;default*//*all flex items should get stacked in one row*/
+    /*flex-direction: column;/*all flex items should get stacked in one column*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column-reverse;*/
+
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+     /*shorthand version : direction wrap*/
+     /*flex-flow: row-reverse wrap-reverse;*/
+
+    /*justify-content: center; aligns flex items centrally on x-axis(main axis))*/
+    /*justify-content: space-between;equal space between flex item with no starting and ending space*/
+    /*justify-content: space-around;equal space around each flex item*/
+    /*justify-content: space-evenly;equal space between and also start and end*/
+
+    /*align-items: center;aligns flex items vertically center*/
+    /*align-items: flex-end;*/
+    /*align-items: flex-start; default*/
+    /*align-items: stretch;allows equal vertical space between flex items*/
+}
+.flex-item{
+    border: 2px solid goldenrod;
+    background-color: indianred;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+#flex-item-1{
+    /*Flex properties to be applied on flex item*/
+    /*higher the order later it appears in the list of flex items*/
+    /*order: 42;*/
+    /*flex-grow: 3; occupies space bigger than other flex items when it gets a chance to grow*/
+    /*flex-shrink: 3; starts shrinking than other flex items when it gets a chance to shrink*/
+    align-self: flex-start;
+}
+#flex-item-2{
+    /*In flex-direction row flex-basis controls the width of a flex item*/
+    /*In flex-direction column flex-basis controls the height of a flex item*/
+    flex-basis: 250px;
+    align-self: flex-end;
+}
+#flex-item-3{
+    /*flex-basis: 300px;*/
+    /*shorthand version : grow shrink basis*/
+    /*flex: 3 3 300px;*/
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+}
